@@ -1,0 +1,19 @@
+from tkinter import *
+
+raiz=Tk()
+
+raiz.title("Ventana de prueba")
+
+raiz.resizable(0,0)
+
+raiz.config(bg="black")
+
+miframe=frame()
+
+miframe.pack()
+
+miframe.config(bg="white")
+
+miframe.config(width="650", height="350")
+
+raiz.mainloop()
